@@ -1,0 +1,56 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #111;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+}
+
+.container {
+    padding: 20px;
+}
+
+button {
+    background: linear-gradient(90deg, #ff8a00, #e52e71);
+    border: none;
+    border-radius: 50px;
+    color: white;
+    padding: 15px 30px;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: transform 0.2s ease;
+}
+
+button:hover {
+    transform: scale(1.05);
+}
+
+p {
+    max-width: 90%;
+    margin: 20px auto;
+    font-size: 18px;
+    line-height: 1.5;
+    word-break: break-word;
+}
+
+.hidden {
+    display: none;
+}
+
+.imagem-container {
+    margin-top: 20px;
+}
+
+.imagem-container img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    filter: blur(15px);
+    transition: filter 1s ease;
+}
+
+.imagem-container img.nitida {
+    filter: blur(0);
+}
